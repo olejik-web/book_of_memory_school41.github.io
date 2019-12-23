@@ -1,0 +1,230 @@
+* {
+    font-family: Cambria;
+}
+
+.header {
+    top: 20px;
+    position: relative;
+    margin: 0 auto;
+    width: 1002px;
+    height: 190px;
+    background-color: #ccc;
+}
+
+.head_img{
+    width: 334px;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+
+.hat_img {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 190px;
+    outline: 3px solid darkred;
+}
+
+.head_title {
+    position: absolute;
+    font-size: 36px;
+    width: 600px;
+    left: 300px;
+    top: 40px;
+}
+
+.logo {
+    width: 220px;
+    height: 145px;
+    background-image: url(img/header/logo.png);
+    background-size: 220px;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.menu {
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid darkred;
+    text-align: center;
+    height: 20px;
+    width: 248.5px;
+    height: 25px;
+    background-color: burlywood;
+}
+
+.menu ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 18px;
+    color: darkred;
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 90px;
+    border: 2px solid darkred;
+    background-color: burlywood;
+    color: darkred;
+}
+
+.content h2 {
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.content {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: justify;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 996px;
+    margin-top: 30px;
+    height: 140px;
+    background-color: burlywood;
+    color: darkred;
+    border: 2px solid darkred;
+}
+
+.hero {
+    width: 215px;
+    height: 250px;
+    margin: 10px;
+    background-color: #ccc;
+    outline: 1px solid darkred;
+}
+/* Здесь начинается фотографии героев на странице Книга памяти */
+
+.hero:first-child {
+    background-image: url(img/list_heros/not_found/man.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero:nth-child(2) {
+    background-image: url(img/list_heros/not_found/man.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero:nth-child(3) {
+    background-image: url(img/list_heros/not_found/man.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero:nth-child(4) {
+    background-image: url(img/list_heros/not_found/woman.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero:nth-child(5) {
+    background-image: url(img/list_heros/not_found/man.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero:nth-child(6) {
+    background-image: url(img/list_heros/not_found/woman.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero:nth-child(7) {
+    background-image: url(img/list_heros/not_found/man.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero:nth-child(8) {
+    background-image: url(img/list_heros/not_found/man.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero:nth-child(9) {
+    background-image: url(img/list_heros/not_found/man.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero:nth-child(10) {
+    background-image: url(img/list_heros/Golubkov_A_I/portret.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero:nth-child(11) {
+    background-image: url(img/list_heros/Shabanov_V_V/portret.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero:nth-child(12) {
+    background-image: url(img/list_heros/not_found/man.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* А здесь они кончаются */
+
+.hero a {
+    display: block;
+    width: 190px;
+    height: 40px;
+    background-color: burlywood;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 195px;
+    color: darkred;
+    outline: 1px solid darkred;
+    text-decoration: none;
+}
+
+.hero:nth-child(8) a {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.short a {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 10px;
+}

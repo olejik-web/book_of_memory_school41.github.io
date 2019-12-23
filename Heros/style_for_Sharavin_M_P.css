@@ -1,0 +1,171 @@
+* {
+    font-family: Cambria;
+}
+
+.header {
+    top: 20px;
+    position: relative;
+    margin: 0 auto;
+    width: 1002px;
+    height: 190px;
+    background-color: #ccc;
+}
+
+.head_img{
+    width: 334px;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+
+.hat_img {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 190px;
+    outline: 3px solid darkred;
+}
+
+.head_title {
+    position: absolute;
+    font-size: 36px;
+    width: 600px;
+    left: 300px;
+    top: 40px;
+}
+
+.logo {
+    width: 220px;
+    height: 145px;
+    background-image: url(../img/header/logo.png);
+    background-size: 220px;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.menu {
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid darkred;
+    text-align: center;
+    height: 20px;
+    width: 248.5px;
+    height: 25px;
+    background-color: burlywood;
+}
+
+.menu ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 18px;
+    color: darkred;
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 90px;
+    border: 2px solid darkred;
+    background-color: burlywood;
+    color: darkred;
+}
+
+.content h2 {
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.content {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: justify;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 996px;
+    margin-top: 30px;
+    height: 140px;
+    background-color: burlywood;
+    color: darkred;
+    border: 2px solid darkred;
+}
+
+.dops img {
+    width: 300px;
+    outline: 1px solid darkred;
+    margin-left: 20px;
+}
+
+.Maslenikova_dop_2 img{
+    width: 450px;
+    margin-bottom: 70px;
+}
+
+.table_of_contents {
+    width: 500px;
+    height: 200px;
+    border: 1px solid darkred;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.table_of_contents ol li{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.table_of_contents ol li a {
+    color: darkred;
+}
+
+.fio_title {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.life_do_war {
+    margin-top: 110px;
+}
+
+.portret {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url(../img/list_heros/Sharavin_M_P/list-heros-photo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    outline: 1px solid darkred;
+}

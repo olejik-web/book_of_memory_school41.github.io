@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Расскажи о своих родных</title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="Heros/hero_1.html">А. И. Савин</a></li>
+        <li><a href="Heros/hero_2.html">О. Д. Иванов</a> </ul>
+    <h2>Напиши о своих героях...</h2>
+    <label for="select">Перейти к списку наград</label><br>
+    <form action="#"> Ваше ФИО
+        <input type="text" placeholder="Ваше ФИО">
+        <br> ФИО родного человека, о котором хотите рассказать
+        <input type="text">
+        <br>
+        <fieldset>
+            <legend>Где родился?</legend>
+            <br> Вологда
+            <input type="radio" name="town" checked>
+            <br> Тотьма
+            <input type="radio" name="town">
+            <br> Сямжа
+            <input type="radio" name="town">
+            <br> Великий Устюг
+            <input type="radio" name="town">
+            <br> </fieldset>
+        <fieldset>
+            <legend>Где воевал?</legend>
+            <br> Под Москвой
+            <input type="checkbox">
+            <br> В Ленинграде
+            <input type="checkbox">
+            <br> В Вытегорском районе
+            <input type="checkbox" checked>
+            <br> На Дальнем Востоке
+            <input type="checkbox" checked>
+            <br> В тылу
+            <input type="checkbox">
+            <br> В Закавказье
+            <input type="checkbox">
+            <br>
+        </fieldset>
+        Какие награды получил?<br>
+        <select name="op" id="select">
+            <option>Награда_1</option>
+            <option>Награда_2</option>
+            <option>Награда_3</option>
+            <option>Награда_4</option>
+            <option>Награда_5</option>
+        </select>
+        <br>
+        Если у Вас имеется еще более подробная информация, можете написать её здесь
+        <br>
+        <textarea cols="70" rows="20"></textarea>
+        <br>
+        <input type="submit" value="Отправить данные">
+        <input type="reset" value="Сброс данных"> </form>
+</body>
+
+</html>
